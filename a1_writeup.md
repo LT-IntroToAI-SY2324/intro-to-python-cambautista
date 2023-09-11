@@ -14,7 +14,7 @@ Mr. Berg will look at all your files to determine what you have completed.  If t
 
 1. What is your initial thoughts about the python programming language?
 
-
+Before being taught some of the basics during class, I was intimidated because I had only used Java Script. Now, I enjoy it. It seems to be more efficient as you don't need to add semicolons or write out/define as much.
 
 
 2. Describe some similarities and differences that you found between python and other programming languages you have used in the past?
