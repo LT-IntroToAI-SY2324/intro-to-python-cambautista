@@ -19,8 +19,9 @@ Before being taught some of the basics during class, I was intimidated because I
 
 2. Describe some similarities and differences that you found between python and other programming languages you have used in the past?
 
-I have used Javascript in the past. There are various similarities. 
+I have used Javascript in the past. Some similarities are that they both use variables, strings, and if statements. Also to have things equal to each other you must use 2 equal signs. Some differences are that in python we dont have to add a semicolon after lines of code, you dont have to define a variable using var, and we utilize the colon more.
 
 
 3. What are some things that you learned through this assignment?
-Through this assignment I have 
+
+Through this assignment I have learned some of the basics of python and was able to apply it to some problems. I also learned about shortcuts for commenting and writing out code. Specifically how some shortcuts for adding from JavaScript can also be used in Python.
