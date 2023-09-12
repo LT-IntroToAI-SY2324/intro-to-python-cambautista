@@ -109,7 +109,12 @@ def median(lst: List[int]) -> float:
     Returns:
         the median of the passed in list
     """
-    raise NotImplementedError("median")
+    import statistics
+
+    median = statistics.median(lst)
+    print(lst)
+
+
 
 
 def duck_duck_goose(lst: List[str]) -> List[str]:
