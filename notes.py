@@ -63,46 +63,46 @@ assert add_two(0) == 2, "add_two with input 0 test"
 # ex: 2 asserts, as soon as it fails one test it cuts the program off
 
 
-# # Loops
+# Loops
 
-# # For Loop Template 1
-# # do something for each item in a list
-# lst = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
-# for el in lst:
-#     print(el)
+# For Loop Template 1
+# do something for each item in a list
+lst = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+for el in lst:
+    print(el)
 
-# # For Loop Template 2
-# # do something n times
-# for i in range(5):
-#     print("Intro to AI")
+# For Loop Template 2
+# do something n times
+for i in range(5):
+    print("Intro to AI")
 
-# # For Loop Template 3
-# # do something for each item in a list but we care about the index
-# for r in range(len(lst)):
-#     if lst[r] == 'b':
-#         lst[r] = 'c'
+# For Loop Template 3
+# do something for each item in a list but we care about the index
+for r in range(len(lst)):
+    if lst[r] == 'b':
+        lst[r] = 'c'
 
-# print(lst)
+print(lst)
 
-# # Dictionaries
+# Dictionaries
 
-# dict = {"name": "rob", "age": 30}
-# print(dict["age"])
+dict = {"name": "rob", "age": 30}
+print(dict["age"])
 
-# # Random
-# import random
+# Random
+import random
 
-# food = ['pizza', 'carrots', 'eggs']
-# dinner = random.choice(food)
-# print(dinner)
+food = ['pizza', 'carrots', 'eggs']
+dinner = random.choice(food)
+print(dinner)
 
-# # f String
-# age = 25
-# # print("Mary is " + age + " years old")
-# print(f"Mary is {age} years old")
+# f String
+age = 25
+# print("Mary is " + age + " years old")
+print(f"Mary is {age} years old")
 
 
-# control+shift then down arrow to select and scroll
-# downside of java: performance issues
-# control + fowardslash to uncomment
-# multiline comments use triple quotes
+#control+shift then down arrow to select and scroll
+#downside of java: performance issues
+#control + fowardslash to uncomment
+#multiline comments use triple quotes

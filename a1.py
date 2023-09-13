@@ -90,7 +90,10 @@ def mean(lst: List[int]) -> float:
     Returns:
         the mean of the passed in list
     """
-    size = len(lst)
+    return sum_list(lst) / len(lst) if lst else 0
+    #if lst exist it will return the mean, if not then it will return the number zero
+    
+    
     
     
 
@@ -109,10 +112,17 @@ def median(lst: List[int]) -> float:
     Returns:
         the median of the passed in list
     """
-    import statistics
+    # import statistics
+    # median = statistics.median(lst)
+    # print(lst)
 
-    median = statistics.median(lst)
-    print(lst)
+    if len(lst) % 2 == 1:
+        return(lst[len(lst) //2])
+    else:
+        el1= lst[len(lst)//2]
+        el2= lst[len(lst)//2 - 1]
+        return (el1 + el2) / 2
+
 
 
 
@@ -136,6 +146,16 @@ def duck_duck_goose(lst: List[str]) -> List[str]:
     Returns:
         the resulting list after playing duck duck goose
     """
+    i=0
+    current = "duck1"
+    while len(lst) > 2:
+        i+= 2
+        # wrap back to the front if needed
+        i %= len(lst) # or if i >= len(lst): i -= len(lst)
+        lst.pop(i)
+    return lst
+
+
     
 
 
